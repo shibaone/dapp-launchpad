@@ -1,5 +1,5 @@
 {
-  "name": "@polygonlabs/dapp-launchpad",
+  "name": "@shibaone/dapp-launchpad",
   "version": "1.0.1",
   "description": "CLI tool to initialise a fully-integrated EVM-compatible dApp, create a development environment, and deploy everything to production.",
   "license": "MIT",
@@ -15,7 +15,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/0xpolygon/dapp-launchpad.git"
+    "url": "git+https://github.com/shibaone/dapp-launchpad.git"
   },
   "keywords": [
     "dapp launchpad",
@@ -24,10 +24,10 @@
     "dapp toolkit",
     "web3 project template",
     "web3 project starter",
-    "polygon"
+    "shibaone"
   ],
   "bugs": {
-    "url": "https://github.com/0xPolygon/dapp-launchpad/issues"
+    "url": "https://github.com/shibaone/dapp-launchpad/issues"
   },
   "dependencies": {
     "chalk": "^5.3.0",

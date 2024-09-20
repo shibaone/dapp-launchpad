@@ -22,40 +22,22 @@
         },
         "blockTime": 20
     },
-    "polygonPos": {
-        "chainId": 137,
-        "name": "Polygon PoS",
-        "url": "https://polygon-rpc.com",
+    "shibarium": {
+        "chainId": 109,
+        "name": "Shibarium",
+        "url": "https://www.shibrpc.com",
         "forking": {
-            "url": "https://polygon-rpc.com"
+            "url": "https://www.shibrpc.com"
         },
-        "blockTime": 2
+        "blockTime": 5
     },
-    "polygonAmoy": {
-        "chainId": 80002,
-        "name": "Polygon Amoy",
-        "url": "https://rpc-amoy.polygon.technology",
+    "puppynet": {
+        "chainId": 157,
+        "name": "Puppynet",
+        "url": "https://puppynet.shibrpc.com",
         "forking": {
-            "url": "https://rpc-amoy.polygon.technology"
+            "url": "https://puppynet.shibrpc.com"
         },
-        "blockTime": 2
-    },
-    "polygonZkevm": {
-        "chainId": 1101,
-        "name": "Polygon ZkEVM",
-        "url": "https://polygon-rpc.com/zkevm",
-        "forking": {
-            "url": "https://polygon-rpc.com/zkevm"
-        },
-        "blockTime": 2
-    },
-    "polygonZkevmTestnet": {
-        "chainId": 2442,
-        "name": "Polygon ZkEVM Testnet",
-        "url": "https://rpc.cardona.zkevm-rpc.com",
-        "forking": {
-            "url": "https://rpc.cardona.zkevm-rpc.com"
-        },
-        "blockTime": 2
-    }
+        "blockTime": 5
+    }    
 }

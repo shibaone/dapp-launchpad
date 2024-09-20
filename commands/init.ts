@@ -26,7 +26,7 @@ export const init = (projectName: string, { template }: IInitCommandOptions) => 
     // Clone scaffold directory
     logInfoWithBg("Cloning scaffolded project repo")
     shelljs.exec(
-        `git clone --branch scaffold-template/${template} https://github.com/0xPolygon/dapp-launchpad ${projectRootDirName}`,
+        `git clone --branch scaffold-template/${template} https://github.com/shibaone/dapp-launchpad ${projectRootDirName}`,
         { cwd }
     );
 

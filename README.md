@@ -30,7 +30,7 @@ To easily manage different npm versions on your system, we recommend using [nvm]
 ## Installation
 Install the package globally, and the tool will be accessible anywhere.
 ```
-npm install -g @polygonlabs/dapp-launchpad
+npm install -g @shibaone/dapp-launchpad
 ```
 
 ## Usage
@@ -65,7 +65,7 @@ This will also generate some funded test wallets for you in this test chain, whi
 
 You may also start this local chain by forking Ethereum or any EVM-compatible chains. Just run:
 ```
-dapp-launchpad dev -n polygonZkevm
+dapp-launchpad dev -n puppynet
 ```
 
 To see all available options, run:
@@ -191,7 +191,7 @@ This will also generate some funded test wallets for you in this test chain, whi
 
 You may also start this local chain by forking Ethereum or any EVM-compatible chain. Just run:
 ```
-dapp-launchpad dev -n polygonZkevm -b [BLOCK_NUMBER_TO_FORK_AT]
+dapp-launchpad dev -n puppynet -b [BLOCK_NUMBER_TO_FORK_AT]
 ```
 
 To see all available options, run:
@@ -254,7 +254,7 @@ This watches the source files, and bundles up the CLI app on every change, and i
 
 ### Reporting bugs / Feature requests
 
-To report a bug or request a feature, [create an issue](https://github.com/0xPolygon/dapp-launchpad/issues), and describe what you want.
+To report a bug or request a feature, [create an issue](https://github.com/shibaone/dapp-launchpad/issues), and describe what you want.
 
 ## FAQs
 
