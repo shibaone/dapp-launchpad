@@ -1,12 +1,27 @@
 import ConnectButton from "@/components/common/connect-btn";
 import styles from "./styles.module.css";
+import Image from "next/image";
+import Link from "next/link";
 
 export default function WalletSection() {
 
     return (
         <div className={styles.connectWallet}>
             {/** Logo */}
-            <img src="/images/logo.svg" alt="logo" className={styles.logo} />
+            <Link className="flex gap-2 items-center" href="/">
+                <Image
+                  width={32}
+                  height={32}
+                  src="/shib-logo.svg"
+                  alt="shib-logo"
+                />
+                <Image
+                  width={98}
+                  height={30}
+                  src="/shibdev-logo-text.svg"
+                  alt="shib-logo"
+                />
+              </Link>
 
             {/** Heading */}
             <div className={styles.heading}>
