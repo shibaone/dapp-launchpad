@@ -58,6 +58,22 @@ const config = {
         url: "https://rpc.cardona.zkevm-rpc.com"
       },
       accounts: [process.env.PRIVATE_KEY_DEPLOYER]
+    },
+    puppynet: {
+      chainId: 157,
+      url: "https://puppynet.shibrpc.com",
+      forking: {
+        url: "https://puppynet.shibrpc.com"
+      },
+      accounts: [process.env.PRIVATE_KEY_DEPLOYER]
+    },
+    shibarium: {
+      chainId: 157,
+      url: "https://www.shibrpc.com",
+      forking: {
+        url: "https://www.shibrpc.com"
+      },
+      accounts: [process.env.PRIVATE_KEY_DEPLOYER]
     }
   }
 };
