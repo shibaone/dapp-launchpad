@@ -10,15 +10,15 @@ export default function WalletSection() {
             {/** Logo */}
             <Link className="flex gap-2 items-center" href="/">
                 <Image
-                  width={32}
+                  width={50}
                   height={32}
-                  src="/shib-logo.svg"
+                  src="/images/shib-logo.svg"
                   alt="shib-logo"
                 />
                 <Image
-                  width={98}
+                  width={140}
                   height={30}
-                  src="/shibdev-logo-text.svg"
+                  src="/images/shibdev-logo-text.svg"
                   alt="shib-logo"
                 />
               </Link>
